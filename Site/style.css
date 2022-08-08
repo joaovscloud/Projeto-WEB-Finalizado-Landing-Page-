@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Poppins" , sans-serif;
+}
+
+.center{
+    max-width: 1100px;
+    margin:0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-mobile{
+    display: none;
+}
+
+header{
+    background-color:aliceblue ;
+    padding: 20px 0;
+    border-bottom: 2px solid #121212;
+}
+
+.logo{
+    color: #121212;
+    translate: 2s;
+
+}
+.logo h2{
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.menu{
+    width: 85%;
+    text-align: right;
+}
+
+
+
+.menu a{
+    color: #121212;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 20px;
+    /*transition: 0.5s;*/
+
+}
+.menu a:hover{
+    color: #707070;
+}
+.menu .btn-menu{
+    background-color: #000000;
+    display: inline-block;
+    padding: 5px 12px;
+    color: white;
+    border-radius: 18px;
+}
+
+.menu .btn-menu:hover{
+    background-color: rgb(210, 226, 255);
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+
+/*
+section.main
+*/
+
+section.main{
+    background-image: url(pexels-scott-webb-2824173.jpg);
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main-cta{
+    width: 100%;
+    margin: 60px;
+    text-align: center;
+}
+
+.main-cta h2{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+.main-cta p{
+    color: black;
+    font-size: 19px;
+    margin: 10px; 
+}
+
+.main-cta button{
+    background-color: #121212;
+    display: inline-block;
+    padding: 8px 30px;
+    color: aliceblue;
+    border-radius: 25px;
+    font-size: 22px;
+    border: 0;
+}
+
+.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.diferencial-single{
+    border-radius: 10px;
+    background-color: aliceblue;
+    width: 19%;
+    margin-right: 2%;
+    padding: 50px 20px;
+
+}
+
+.diferencial-single i{
+    color: #000000;
+    margin: 10px;
+    font-size: 23px;    
+}
+
+.diferencial-single h2{
+    color: #707070;
+    margin: 15px 0;
+    font-size: 17px;
+}
+
+.diferencial-single p{
+    color: #707070;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+section.sobre{
+    padding: 80px 0;
+}
+
+.chamada-sobre{
+    width: 100%;
+    text-align: center;
+}
+
+.chamada-sobre h2{
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.chamada-sobre p{
+    font-size: 25px;
+    color: #080707;
+    margin: 10px 0;
+}
+
+.conteudo-sobre{
+    display: flex;
+} 
+
+.conteudo-sobre p{
+    width: 48%;
+    margin-right: 2%;
+    color: #707070;
+}
+.conteudo-sobre span{
+    display: inline-block;
+    width: 100%;
+}
+
+.conteudo-sobre i{
+    color: #37a5ff;
+    
+}
+section.conquistas{
+    background-color: rgb(206, 206, 206);
+    padding: 20px 0;
+}
+
+.conquista-single{
+    width: 22%;
+    margin-right: 3%;
+    text-align: center;
+}
+.conquista-single h2{
+    font-size: 30px;
+    color: #000000;
+}
+.conquista-single p{
+    font-size: 22px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+section.sobre-empreendedor{
+    padding: 40px 0;
+}
+
+.sobre-empreendedor-img{
+    width: 50%;
+}
+
+.sobre-empreendedor-img img 
+{max-width: 50%;}
+
+.sobre-eppreendedor-content{
+    width: 50%;
+    padding: 0% 50px;
+}
+
+.sobre-eppreendedor-content h2{
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.sobre-eppreendedor-content p{
+    color: #000000;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .diferencial-single{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .menu{
+        display: none;
+    }
+    .logo{
+        width: 20%;
+    }
+    .menu-mobile{
+        width: 80%;
+        text-align: right;
+        display: block;
+    }
+    .menu-mobile i{
+        cursor: pointer;
+        font-size: 23px;
+        margin-top: 8px;
+    }
+ }
+
+
+
+
+
+
+
+
+
